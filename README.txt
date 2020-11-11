@@ -2,7 +2,12 @@ SeminarioMongoDB
 
 ACTIVIDAD CLASE 1
 1) mongo para iniciar el servicio
-2) use futbolfifa: para crear o usar la bd (si no existe la crea)
-3)db.createCollection("players"), crea la coleccion players (el equivalente a una tabla en sql)
-4)db.players.insert({nombre: , apellido: , posicion: ,altura: , date:ISODate("2016-03-03T08:00:00.000" })
-5)
+3) use futbolfifa: para crear o usar la bd (si no existe la crea)
+4)db.createCollection("players"), crea la coleccion players (el equivalente a una tabla en sql)
+5)db.players.insert({name:"riquelme", apellido:"riquelme", posicion:9})
+  db.players.insert({name:"lio", posicion:10,})
+  db.players.insert({name:"mono", apellido:"montoya", posicion:1})
+  db.players.insert({apellido:"palermo", posicion:9, altura:1.81})
+  db.players.insert({name:"paulo", apellido:"dybala", posicion:10, altura:1.77})
+6)db.players.find()
+7)db.createCollection("games")
