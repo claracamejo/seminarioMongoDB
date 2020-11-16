@@ -11,3 +11,4 @@ ACTIVIDAD CLASE 1
   db.players.insert({name:"paulo", apellido:"dybala", posicion:10, altura:1.77})
 6)db.players.find()
 7)db.createCollection("games")
+
